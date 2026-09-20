@@ -1456,6 +1456,28 @@
 			)
 		)
 	)
+	(global_label "signal"
+		(shape input)
+		(at 35.56 52.07 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d5cff46a-b8f3-47ff-be8b-fdb2393d6fb9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 35.56 43.3397 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SIGNAL_GND"
 		(shape input)
 		(at 144.78 57.15 270)
@@ -1643,6 +1665,72 @@
 			(project "Shunt"
 				(path "/dd3ebe77-9c4b-4a16-8050-ed7c4a69dc4a/fdf64fb6-4968-4573-9460-67c15cea3e83"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 35.56 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "03a94d7e-4ed9-4d27-b487-80e9cabbe69e")
+		(property "Reference" "#PWR013"
+			(at 35.56 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND_SQ"
+			(at 35.56 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.56 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 35.56 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ac8c1af9-8432-42dc-a572-4331068518fa")
+		)
+		(instances
+			(project "Shunt"
+				(path "/dd3ebe77-9c4b-4a16-8050-ed7c4a69dc4a/fdf64fb6-4968-4573-9460-67c15cea3e83"
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -1918,6 +2006,76 @@
 			(project "Shunt"
 				(path "/dd3ebe77-9c4b-4a16-8050-ed7c4a69dc4a/fdf64fb6-4968-4573-9460-67c15cea3e83"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 35.56 55.88 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c002efba-1bc4-4041-b6e4-f41d0800393c")
+		(property "Reference" "R10"
+			(at 33.02 57.1501 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 33.02 54.6101 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 37.338 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 35.56 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 35.56 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3ae2d3e5-c460-4339-99e6-824d850099aa")
+		)
+		(pin "2"
+			(uuid "9b412730-0a37-465d-bde7-21e51fbde5df")
+		)
+		(instances
+			(project "Shunt"
+				(path "/dd3ebe77-9c4b-4a16-8050-ed7c4a69dc4a/fdf64fb6-4968-4573-9460-67c15cea3e83"
+					(reference "R10")
 					(unit 1)
 				)
 			)

@@ -40,25 +40,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MF" "Molex"
+			(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/1720650306?display=pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -68,7 +50,17 @@
 					(hide yes)
 				)
 			)
-			(property "DESCRIPTION" "Mega-Fit Slim Vertical Header without Crush Pegs, 5.70mm Pitch, Through Hole, Dual Row, 6 Circuits, 0.76Âµm Gold (Au) Plating, 2.93mm Tail Length, Glow-Wire Capable, Tray, Black"
+			(property "Description" "Mega-Fit Slim Vertical Header without Crush Pegs, 5.70mm Pitch, Through Hole, Dual Row, 6 Circuits, 0.76Âµm Gold (Au) Plating, 2.93mm Tail Length, Glow-Wire Capable, Tray, Black"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MF" "Molex"
 				(at 0 0 0)
 				(effects
 					(font
@@ -109,16 +101,6 @@
 				)
 			)
 			(property "Availability" "In Stock"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "DATASHEET" "https://www.molex.com/en-us/products/part-detail-pdf/1720650306?display=pdf"
 				(at 0 0 0)
 				(effects
 					(font
