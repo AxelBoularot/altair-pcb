@@ -1,0 +1,18 @@
+.AQW614 :1 ;Panasonic 0.1 A Solid State Relay, PCB Mount, MOSFET, 400 V Maximum Load
+DIP762W47P254L978H410Q8N
+*STM K
+*NGS
+*PLB 1="A1" 2="K1" 3="A2" 4="K2" 5="D1" 6="D2" 7="D3" 8="D4"
+*MXP 8
+*DFN AQW614
+~!Manufacturer_Name (Panasonic)
+~!Manufacturer_Part_Number (AQW614)
+~!Mouser Part Number (769-AQW614)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Panasonic/AQW614?qs=sEN%2FkO1EG6aIbQazZO7uDw%3D%3D)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (https://industry.panasonic.com/ac/cdn/e/control/relay/photomos/catalog/semi_eng_gu1a1b_aqw61.pdf)
+~!Height (4.1mm)
+~!3D_Model (AQW614)
+AQW614
+1.1!U 2.1!U 3.1!U 4.1!U 8.1!U 7.1!U 6.1!U 5.1!U 

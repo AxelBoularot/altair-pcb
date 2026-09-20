@@ -1,0 +1,9 @@
+Manufacturer=Panasonic
+PartNumber=AQW614
+PartCategory=Relay or Contactor
+PackageCategory=Dual-In-Line Packages
+PinCount=8
+Version=2.1
+Released=2020-08-18 11:25:45
+Downloaded=2026-09-19 15:29:59
+3D=Y

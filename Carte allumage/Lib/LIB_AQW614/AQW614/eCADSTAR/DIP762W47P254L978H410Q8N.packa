@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "AQW614"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2022-12-27-13:29:54)
+    (mountForm default
+        (footprintRef "DIP762W47P254L978H410Q8N")
+        (spec "System")
+    )
+)

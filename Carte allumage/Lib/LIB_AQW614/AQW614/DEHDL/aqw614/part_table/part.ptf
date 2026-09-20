@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'AQW614'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Panasonic", "AQW614" (!) = "", "DIP762W47P254L978H410Q8N", "Dual-In-Line Packages", "769-AQW614", "https://www.mouser.co.uk/ProductDetail/Panasonic/AQW614?qs=sEN%2FkO1EG6aIbQazZO7uDw%3D%3D", "", "", "Panasonic 0.1 A Solid State Relay, PCB Mount, MOSFET, 400 V Maximum Load", "https://industry.panasonic.com/ac/cdn/e/control/relay/photomos/catalog/semi_eng_gu1a1b_aqw61.pdf", "4.1 mm"
+END_PART
+
+END.

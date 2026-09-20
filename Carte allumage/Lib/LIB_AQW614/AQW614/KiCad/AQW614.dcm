@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AQW614
+D Panasonic 0.1 A Solid State Relay, PCB Mount, MOSFET, 400 V Maximum Load
+K
+F https://industry.panasonic.com/ac/cdn/e/control/relay/photomos/catalog/semi_eng_gu1a1b_aqw61.pdf
+$ENDCMP
+#
+#End Doc Library
