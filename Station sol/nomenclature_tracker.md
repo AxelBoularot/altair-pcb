@@ -143,6 +143,19 @@ Les moteurs sont alimentés **directement en 12 V** par les drivers TMC2209 (pla
   Le RX5808 donne une image correcte jusqu'à environ −85/−90 dBm. Compte donc sur **3 à 5 km d'image propre** au mieux. Les creux du diagramme de l'antenne de la fusée (corps métallique, orientation) retirent facilement 10 dB.
 - **Diversité conseillée :** un **deuxième RX5808 sur une antenne omni**, commuté par le TS5V330 selon le RSSI. Au décollage, la fusée passe très vite près de la verticale et le tracker ne peut pas suivre : l'antenne omni prend le relais pendant ces premières secondes.
 
+## Diversité vidéo (2 à 4 antennes)
+
+| Nombre d'antennes | Commutateur vidéo | Configuration conseillée |
+|---|---|---|
+| 2 | **TS5V330** (TI), 2 vers 1 | 16 dBi (suivi) + omni (décollage, proximité) |
+| 3 ou 4 | **TMUX1511** (TI), 4 interrupteurs dont un seul fermé à la fois | 16 dBi + patch ~8 dBi (faisceau ~60°, pour raccrocher la fusée) + omni |
+
+- **Un RX5808 par antenne**, tous réglés sur le même canal. Les signaux SPI CLK et DATA sont partagés ; chaque module a sa propre ligne LE (sélection) et sa propre entrée ADC pour le RSSI.
+- **Le STM32 choisit l'image** : il lit les RSSI et bascule vers le meilleur récepteur, avec une **hystérésis** (par exemple, n'échanger que si l'autre est meilleur de 3–5 dB pendant 50 ms) pour éviter que l'image clignote.
+- **Calibrer le RSSI** de chaque module (sans signal et avec un signal fort), car ils ne donnent pas tous la même tension.
+- **Option :** un séparateur de synchro (**LM1881**) permet de basculer pendant le retour de trame, et rend la commutation invisible à l'écran.
+- **Même polarisation partout** : toutes les antennes de la station doivent avoir le même sens de polarisation circulaire que l'antenne de la fusée.
+
 ## Questions ouvertes
 
 - Quelle est l'antenne que tu as déjà : bande, type (patch, hélice, Yagi), connecteur ?
