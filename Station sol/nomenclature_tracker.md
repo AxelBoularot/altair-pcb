@@ -10,7 +10,7 @@ Première version, à valider. Les prix sont des ordres de grandeur et les réf�
 | Télémétrie | LoRa **868 MHz** avec un RFM95W, comme sur Sweeton | Modulation et paramètres LoRa côté fusée |
 | Suivi | La fusée envoie sa **position GNSS** par télémétrie ; la station connaît la sienne et calcule l'azimut et l'élévation | — |
 | Alimentation | Batterie terrain **12 V** (LiFePO4 4S ou plomb) ou bloc secteur 12 V / 5 A | — |
-| PC | Liaison **USB** : télémétrie en port série virtuel (CDC), vidéo par ta carte de capture HDMI → USB existante | — |
+| PC | Liaison **USB** : télémétrie en port série virtuel (CDC), vidéo par une **clé d'acquisition vidéo USB** (vue comme une webcam) | — |
 
 ## Architecture
 
@@ -31,7 +31,7 @@ Première version, à valider. Les prix sont des ordres de grandeur et les réf�
    │   ├─ Encodeur magnétique d'azimut                             │
    │   ├─ 2× drivers TMC2209 ─► 2× moteurs NEMA 17 + réduction     │
    │   └─ Écran, boutons, buzzer                                   │
-   │ Vidéo CVBS ─► convertisseur AV → HDMI ─► ta carte de capture  │
+   │ Vidéo CVBS ─► prise RCA ─► clé d'acquisition USB ─► PC         │
    │ Alimentation 12 V ─► protection ─► buck 5 V ─► LDO 3,3 V      │
    └───────────────────────────────────────────────────────────────┘
 ```
@@ -62,9 +62,9 @@ Première version, à valider. Les prix sont des ordres de grandeur et les réf�
 | Commutation de diversité (option) | **TS5V330** (TI) | 1 | ~1 € | Si 2 récepteurs (antenne directive + omni) : choisit la meilleure image selon le RSSI |
 | Buffer vidéo 75 Ω | **THS7314** (TI) ou équivalent | 1 | ~1,50 € | Attaque le câble vers le convertisseur |
 | Connecteur vidéo | RCA femelle pour CI ou SMA | 1 | ~0,50 € | Sortie CVBS |
-| Convertisseur vers le PC | **Convertisseur AV (CVBS) → HDMI** (« AV2HDMI ») | 1 | ~10–15 € | Se branche sur ta carte de capture HDMI → USB existante |
+| Liaison vidéo vers le PC | **Clé d'acquisition vidéo composite USB** (« USB video grabber », compatible UVC) | 1 | ~10–20 € | Entrée RCA, sortie USB. Le PC la voit comme une webcam, sans pilote ni HDMI |
 
-Alternative plus simple pour la vidéo : une **carte d'acquisition USB composite (UVC)**, reconnue comme une webcam, qui évite le passage par HDMI.
+La vidéo ne passe pas par HDMI : la carte sort de la vidéo composite sur une prise RCA, et la clé USB la transmet au PC.
 
 ### 3. Radio de télémétrie
 
