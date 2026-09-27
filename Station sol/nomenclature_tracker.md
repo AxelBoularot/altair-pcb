@@ -58,11 +58,12 @@ Première version, à valider. Les prix sont des ordres de grandeur et les réf�
 
 | Fonction | Composant | Qté | Prix env. | Remarque |
 |---|---|---|---|---|
-| Récepteur 5,8 GHz | **Module RX5808** (puce RTC6715), version avec SPI activé | 1 ou 2 | ~8–12 € | Sort la vidéo composite (CVBS) et une tension **RSSI** analogique. Le canal se choisit par SPI |
-| Commutation de diversité (option) | **TS5V330** (TI) | 1 | ~1 € | Si 2 récepteurs (antenne directive + omni) : choisit la meilleure image selon le RSSI |
+| Récepteur 5,8 GHz | **Module RX5808** (puce RTC6715), version avec SPI activé | 1 | ~5–10 € sur AliExpress / Banggood (beaucoup plus cher chez certains revendeurs européens) | Sort la vidéo composite (CVBS) et une tension **RSSI** analogique. Le canal se choisit par SPI |
 | Buffer vidéo 75 Ω | **THS7314** (TI) ou équivalent | 1 | ~1,50 € | Attaque le câble vers le convertisseur |
 | Connecteur vidéo | RCA femelle pour CI ou SMA | 1 | ~0,50 € | Sortie CVBS |
 | Liaison vidéo vers le PC | **Clé d'acquisition vidéo composite USB** (« USB video grabber », compatible UVC) | 1 | ~10–20 € | Entrée RCA, sortie USB. Le PC la voit comme une webcam, sans pilote ni HDMI |
+
+**Alternative sans électronique vidéo sur le PCB :** un récepteur 5,8 GHz USB tout-en-un (type **Eachine ROTG02**, ~25–35 €), vu comme une webcam par le PC. Monté sur la tête avec l'antenne, il remplace le RX5808, la prise RCA et la clé d'acquisition. Seul un câble USB descend vers le PC (moins de 5 m, sans collecteur tournant).
 
 La vidéo ne passe pas par HDMI : la carte sort de la vidéo composite sur une prise RCA, et la clé USB la transmet au PC.
 
@@ -141,9 +142,11 @@ Les moteurs sont alimentés **directement en 12 V** par les drivers TMC2209 (pla
   | 10 km | ~127,7 dB | ~−96 dBm |
 
   Le RX5808 donne une image correcte jusqu'à environ −85/−90 dBm. Compte donc sur **3 à 5 km d'image propre** au mieux. Les creux du diagramme de l'antenne de la fusée (corps métallique, orientation) retirent facilement 10 dB.
-- **Diversité conseillée :** un **deuxième RX5808 sur une antenne omni**, commuté par le TS5V330 selon le RSSI. Au décollage, la fusée passe très vite près de la verticale et le tracker ne peut pas suivre : l'antenne omni prend le relais pendant ces premières secondes.
+- **Diversité (non retenue pour l'instant, pour le coût des 3 trackers) :** un **deuxième RX5808 sur une antenne omni**, commuté par le TS5V330 selon le RSSI. Au décollage, la fusée passe très vite près de la verticale et le tracker ne peut pas suivre : l'antenne omni prend le relais pendant ces premières secondes.
 
-## Diversité vidéo (2 à 4 antennes)
+## Diversité vidéo (2 à 4 antennes) – non retenue pour la première version
+
+À garder pour une évolution future. La première version n'utilise qu'une antenne et un récepteur.
 
 | Nombre d'antennes | Commutateur vidéo | Configuration conseillée |
 |---|---|---|
