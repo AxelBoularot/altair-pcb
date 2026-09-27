@@ -128,6 +128,21 @@ Les moteurs sont alimentés **directement en 12 V** par les drivers TMC2209 (pla
 4. **Débit de télémétrie.** Avec le cycle d'émission de 1 % en 868 MHz, envoie des trames courtes (position, vitesse, état). La station extrapole la trajectoire entre deux trames.
 5. **Précision de pointage.** Une antenne 5,8 GHz directive a un faisceau d'environ 20–30°. Une précision de ±2–3° suffit, donc la réduction et les encodeurs sont largement assez précis.
 
+## Antenne vidéo à grand gain (~16 dBi)
+
+- **Faisceau :** environ 30° de large à −3 dB. Le pointage doit rester à ±5° de la fusée, ce qui est confortable avec les encodeurs.
+- **Récepteur au plus près de l'antenne :** à 5,8 GHz, un câble coaxial fin (RG316) perd environ 1,5–2 dB par mètre. Le RX5808 doit être juste derrière l'antenne, avec un câble SMA de quelques centimètres.
+- **Bilan de liaison estimé** (émetteur 25 mW / 14 dBm, antenne omni ~2 dBi sur la fusée, 16 dBi au sol, sans marge) :
+
+  | Distance | Perte en espace libre | Puissance reçue |
+  |---|---|---|
+  | 2 km | ~113,7 dB | ~−82 dBm |
+  | 5 km | ~121,7 dB | ~−90 dBm |
+  | 10 km | ~127,7 dB | ~−96 dBm |
+
+  Le RX5808 donne une image correcte jusqu'à environ −85/−90 dBm. Compte donc sur **3 à 5 km d'image propre** au mieux. Les creux du diagramme de l'antenne de la fusée (corps métallique, orientation) retirent facilement 10 dB.
+- **Diversité conseillée :** un **deuxième RX5808 sur une antenne omni**, commuté par le TS5V330 selon le RSSI. Au décollage, la fusée passe très vite près de la verticale et le tracker ne peut pas suivre : l'antenne omni prend le relais pendant ces premières secondes.
+
 ## Questions ouvertes
 
 - Quelle est l'antenne que tu as déjà : bande, type (patch, hélice, Yagi), connecteur ?
