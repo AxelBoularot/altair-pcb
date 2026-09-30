@@ -390,6 +390,14 @@
     [
       "1710a01c-a72d-408e-960c-33bbda1ab7f2",
       "MCU"
+    ],
+    [
+      "781d29a0-7687-47a6-a4c4-8f910332ba79",
+      "Sensor"
+    ],
+    [
+      "1b424d2f-32de-496b-af02-54293da8185b",
+      "Telem & Data"
     ]
   ],
   "text_variables": {}
