@@ -1,0 +1,9 @@
+Manufacturer=Vishay
+PartNumber=SQ4917CEY-T1_GE3
+PartCategory=MOSFET (P-Channel)
+PackageCategory=Small Outline Packages
+PinCount=8
+Version=1.1
+Released=2023-09-17 21:48:10
+Downloaded=2026-10-02 14:10:55
+3D=Y

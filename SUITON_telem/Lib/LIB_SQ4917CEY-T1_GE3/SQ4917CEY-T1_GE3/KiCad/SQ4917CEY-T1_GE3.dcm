@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SQ4917CEY-T1_GE3
+D MOSFET Automotive Dual P-Channel 60V 175CmOSFET 48mO 10V, 61.2mO 4.5V
+K
+F https://www.vishay.com/docs/62019/sq4917cey.pdf
+$ENDCMP
+#
+#End Doc Library

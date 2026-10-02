@@ -4,7 +4,52 @@
 	(generator_version "8.0")
 	(uuid "2c712d4c-abcd-440d-8aed-9b8cbcb1a05a")
 	(paper "A4")
+	(title_block
+		(title "SUITON PRO")
+		(date "2026-10-01")
+		(company "S.T.A.R.")
+		(comment 1 "Axel BOULAROT")
+		(comment 2 "Versatile Flight Controller for rocket and more")
+	)
 	(lib_symbols)
+	(sheet
+		(at 86.36 74.93)
+		(size 53.34 30.48)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "07c4620a-4845-4c50-b233-c1d8286457e1")
+		(property "Sheetname" "Power"
+			(at 86.36 74.2184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 86.36 105.9946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SUITON"
+				(path "/2c712d4c-abcd-440d-8aed-9b8cbcb1a05a"
+					(page "5")
+				)
+			)
+		)
+	)
 	(sheet
 		(at 181.61 30.48)
 		(size 58.42 30.48)

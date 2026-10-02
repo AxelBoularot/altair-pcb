@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'SQ4917CEY_T1_GE3'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Vishay", "SQ4917CEY-T1_GE3" (!) = "", "SOIC127P600X175-8N", "Small Outline Packages", "78-SQ4917CEY-T1_GE3", "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/SQ4917CEY-T1_GE3?qs=Y0Uzf4wQF3m%252Bt%252BVrseINGQ%3D%3D", "", "", "MOSFET Automotive Dual P-Channel 60V 175CmOSFET 48mO 10V, 61.2mO 4.5V", "https://www.vishay.com/docs/62019/sq4917cey.pdf", "1.75 mm"
+END_PART
+
+END.

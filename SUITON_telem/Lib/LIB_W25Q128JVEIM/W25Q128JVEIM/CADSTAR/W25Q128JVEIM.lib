@@ -1,0 +1,18 @@
+.W25Q128JVEIM :1 ;128M-bit Serial Flash Memory with uniform 4KB sectors and Dual/Quad SPI
+SON127P800X600X80-9N-D
+*STM IC
+*NGS
+*PLB 1="'CS'" 2="DO (IO1)" 3="'WP (IO2)'" 4="GND" 5="DI (IO0)" 6="CLK" 7="'HOLD OR '/RESET (IO3)" 8="VCC" 9="EP"
+*MXP 9
+*DFN W25Q128JVEIM
+~!Manufacturer_Name (Winbond)
+~!Manufacturer_Part_Number (W25Q128JVEIM)
+~!Mouser Part Number (454-W25Q128JVEIM)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Winbond/W25Q128JVEIM?qs=qSfuJ%252Bfl%2Fd6hdnQ7I94fFQ%3D%3D)
+~!Arrow Part Number (W25Q128JVEIM)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/w25q128jveim/winbond-electronics.html?utm_currency=USD&region=asia)
+~!Link Datasheet (https://www.winbond.com/hq/search-resource-file.jsp?partNo=W25Q128JVEIM&type=datasheet)
+~!Height (0.8mm)
+~!3D_Model (W25Q128JVEIM)
+W25Q128JVEIM
+1.1!U 2.1!U 3.1!U 4.1!U 9.1!U 8.1!U 7.1!U 6.1!U 5.1!U 

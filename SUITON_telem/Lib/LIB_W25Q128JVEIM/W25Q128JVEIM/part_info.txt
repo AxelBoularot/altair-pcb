@@ -1,0 +1,9 @@
+Manufacturer=Winbond
+PartNumber=W25Q128JVEIM
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline No-lead
+PinCount=9
+Version=4.1
+Released=2021-05-04 09:50:20
+Downloaded=2026-10-01 15:18:07
+3D=Y
