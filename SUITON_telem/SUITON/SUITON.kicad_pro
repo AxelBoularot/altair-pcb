@@ -388,6 +388,10 @@
       "Racine"
     ],
     [
+      "07c4620a-4845-4c50-b233-c1d8286457e1",
+      "Power"
+    ],
+    [
       "1710a01c-a72d-408e-960c-33bbda1ab7f2",
       "MCU"
     ],
@@ -400,8 +404,8 @@
       "Telem & Data"
     ],
     [
-      "07c4620a-4845-4c50-b233-c1d8286457e1",
-      "Power"
+      "f71dc448-03b0-45af-bdbc-4c32a938d911",
+      "COM"
     ]
   ],
   "text_variables": {}

@@ -45,7 +45,7 @@
 		(instances
 			(project "SUITON"
 				(path "/2c712d4c-abcd-440d-8aed-9b8cbcb1a05a"
-					(page "5")
+					(page "2")
 				)
 			)
 		)
@@ -83,7 +83,7 @@
 		(instances
 			(project "SUITON"
 				(path "/2c712d4c-abcd-440d-8aed-9b8cbcb1a05a"
-					(page "2")
+					(page "3")
 				)
 			)
 		)
@@ -121,7 +121,7 @@
 		(instances
 			(project "SUITON"
 				(path "/2c712d4c-abcd-440d-8aed-9b8cbcb1a05a"
-					(page "4")
+					(page "5")
 				)
 			)
 		)
@@ -159,7 +159,45 @@
 		(instances
 			(project "SUITON"
 				(path "/2c712d4c-abcd-440d-8aed-9b8cbcb1a05a"
-					(page "3")
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 181.61 124.46)
+		(size 58.42 29.21)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f71dc448-03b0-45af-bdbc-4c32a938d911")
+		(property "Sheetname" "COM"
+			(at 181.61 123.7484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "com.kicad_sch"
+			(at 181.61 154.2546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SUITON"
+				(path "/2c712d4c-abcd-440d-8aed-9b8cbcb1a05a"
+					(page "6")
 				)
 			)
 		)
