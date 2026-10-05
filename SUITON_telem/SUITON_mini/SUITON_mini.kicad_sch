@@ -1,0 +1,248 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "651dea4f-1e55-4052-accd-e9842c395f76")
+	(paper "A4")
+	(title_block
+		(title "SUITON mini")
+		(date "2026-10-05")
+		(company "S.T.A.R.")
+		(comment 1 "World’s First Universal Flight Computer")
+		(comment 2 "Author : Axel BOULAROT")
+	)
+	(lib_symbols)
+	(sheet
+		(at 205.74 29.21)
+		(size 71.12 36.83)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "57dbdffc-67a8-4719-b089-3a9a4f0f209c")
+		(property "Sheetname" "MCU"
+			(at 205.74 28.4984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 205.74 66.6246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SUITON_mini"
+				(path "/651dea4f-1e55-4052-accd-e9842c395f76"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 111.76 81.28)
+		(size 72.39 33.02)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "873eb0e4-6ac7-40ec-9166-17753800617b")
+		(property "Sheetname" "IHM & Pyro"
+			(at 111.76 80.5684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ihm_pyro.kicad_sch"
+			(at 111.76 114.8846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SUITON_mini"
+				(path "/651dea4f-1e55-4052-accd-e9842c395f76"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 205.74 127)
+		(size 71.12 30.48)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c553f086-374f-4580-b66d-5120bafbb2ca")
+		(property "Sheetname" "Sensor"
+			(at 205.74 126.2884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensor.kicad_sch"
+			(at 205.74 158.0646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SUITON_mini"
+				(path "/651dea4f-1e55-4052-accd-e9842c395f76"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 111.76 29.21)
+		(size 73.66 36.83)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "cbc1e4b3-87c3-4a09-a481-980e2b628052")
+		(property "Sheetname" "Memory"
+			(at 111.76 28.4984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "memory.kicad_sch"
+			(at 111.76 66.6246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SUITON_mini"
+				(path "/651dea4f-1e55-4052-accd-e9842c395f76"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 111.76 128.27)
+		(size 74.93 27.94)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d39f43fa-015a-494c-b832-3dadfd105702")
+		(property "Sheetname" "PYRO"
+			(at 111.76 127.5584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "pyro.kicad_sch"
+			(at 111.76 156.7946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SUITON_mini"
+				(path "/651dea4f-1e55-4052-accd-e9842c395f76"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 205.74 81.28)
+		(size 72.39 33.02)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "fa32c007-86ee-4863-8d57-e197c5fc4cbe")
+		(property "Sheetname" "POWER"
+			(at 205.74 80.5684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 205.74 114.8846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SUITON_mini"
+				(path "/651dea4f-1e55-4052-accd-e9842c395f76"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

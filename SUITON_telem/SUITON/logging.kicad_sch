@@ -2158,7 +2158,7 @@
 		(uuid "f02c3a43-cda5-44a2-a405-626a801793b5")
 	)
 	(no_connect
-		(at 203.2 81.28)
+		(at 204.47 77.47)
 		(uuid "3fab1f7e-9dbc-4344-90c0-efb2fb4a1250")
 	)
 	(wire
@@ -2571,9 +2571,9 @@
 		)
 		(uuid "f5ed6c1d-9cd7-4c7b-9e78-9959442e215f")
 	)
-	(global_label "OCTOSPI1_IO3"
+	(global_label "PD13"
 		(shape input)
-		(at 231.14 63.5 0)
+		(at 232.41 59.69 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2581,9 +2581,9 @@
 			)
 			(justify left)
 		)
-		(uuid "19a4bfa9-7040-4941-806f-7c790b945de4")
+		(uuid "06409ae3-59b4-4456-9bd1-5cab0901184a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 247.43 63.5 0)
+			(at 240.3542 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2593,24 +2593,24 @@
 			)
 		)
 	)
-	(global_label "OCTOSPI1_IO2"
+	(global_label "PD11"
 		(shape input)
-		(at 175.26 66.04 180)
+		(at 232.41 64.77 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "293f7fda-2959-4c63-80f1-9d797aef309e")
+		(uuid "0682898f-bef5-43fe-952e-852be3efba6b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 158.97 66.04 0)
+			(at 240.3542 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -2628,6 +2628,28 @@
 		(uuid "29dc3d03-64e0-4eaa-9d74-49a6be0e6da1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 59.7891 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PB6"
+		(shape input)
+		(at 176.53 57.15 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "36cb1ac5-1926-4031-9791-05618f6af8d7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 169.7953 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2659,9 +2681,9 @@
 			)
 		)
 	)
-	(global_label "OCTOSPI1_IO1"
+	(global_label "PD12"
 		(shape input)
-		(at 175.26 63.5 180)
+		(at 176.53 59.69 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2669,9 +2691,31 @@
 			)
 			(justify right)
 		)
-		(uuid "4f0359bc-e5c0-4c31-8ada-3c6f3da7c6c7")
+		(uuid "4afcab3a-78cd-40e2-9b99-f2cb004f2f94")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 158.97 63.5 0)
+			(at 168.5858 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PE2"
+		(shape input)
+		(at 176.53 62.23 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "510c3bcc-c748-45dc-b890-c4a782508fde")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 169.9163 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2747,28 +2791,6 @@
 			)
 		)
 	)
-	(global_label "OCTOSPI1_CLK"
-		(shape input)
-		(at 231.14 66.04 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5bd01574-ba9b-40d2-9070-2f1e2e29400d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 247.8533 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "DIO0_RF"
 		(shape input)
 		(at 68.58 77.47 180)
@@ -2787,28 +2809,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "OCTOSPI1_IO0"
-		(shape input)
-		(at 231.14 68.58 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "8863a4cf-f69e-46af-8e3a-9ff5da9797ec")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 247.43 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -2848,28 +2848,6 @@
 		(uuid "8f240f62-c847-42fe-9cf0-311bb5f95544")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 92.71 154.478 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "OCTOSPI1_NCS"
-		(shape input)
-		(at 175.26 60.96 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "93870bab-09e4-4a72-b70d-3f99cc601067")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 158.3048 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3055,6 +3033,28 @@
 			)
 		)
 	)
+	(global_label "PB2"
+		(shape input)
+		(at 232.41 62.23 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f5834d69-69bf-4cd6-a9b4-2851455f2673")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 239.1447 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "DIO5_RF"
 		(shape input)
 		(at 68.58 69.85 180)
@@ -3079,7 +3079,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 231.14 60.96 0)
+		(at 232.41 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3088,7 +3088,7 @@
 		(fields_autoplaced yes)
 		(uuid "06c6cfe9-3972-4acd-9497-8bbf0e4353f0")
 		(property "Reference" "#PWR061"
-			(at 231.14 64.77 0)
+			(at 232.41 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3097,7 +3097,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 231.14 55.88 0)
+			(at 232.41 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3105,7 +3105,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 231.14 60.96 0)
+			(at 232.41 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3114,7 +3114,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 231.14 60.96 0)
+			(at 232.41 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3123,7 +3123,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 231.14 60.96 0)
+			(at 232.41 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3516,7 +3516,7 @@
 		(dnp no)
 		(uuid "2037bd90-4ef3-4ed7-b29f-814d397e5f20")
 		(property "Reference" "C34"
-			(at 180.594 81.788 0)
+			(at 179.832 81.788 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3908,7 +3908,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 175.26 68.58 0)
+		(at 176.53 64.77 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3917,7 +3917,7 @@
 		(fields_autoplaced yes)
 		(uuid "5dd5dfce-924f-4f7a-b35a-43fc5b096d1e")
 		(property "Reference" "#PWR062"
-			(at 175.26 74.93 0)
+			(at 176.53 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3926,7 +3926,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 175.26 73.66 0)
+			(at 176.53 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3934,7 +3934,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 175.26 68.58 0)
+			(at 176.53 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3943,7 +3943,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 175.26 68.58 0)
+			(at 176.53 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3952,7 +3952,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 175.26 68.58 0)
+			(at 176.53 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3974,7 +3974,7 @@
 	)
 	(symbol
 		(lib_id "W25Q128JVEIM:W25Q128JVEIM")
-		(at 175.26 60.96 0)
+		(at 176.53 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3983,7 +3983,7 @@
 		(fields_autoplaced yes)
 		(uuid "609c9427-3673-47ae-9e19-e56c6d274122")
 		(property "Reference" "IC1"
-			(at 203.2 53.34 0)
+			(at 204.47 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3991,7 +3991,7 @@
 			)
 		)
 		(property "Value" "W25Q128JVEIM"
-			(at 203.2 55.88 0)
+			(at 204.47 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3999,7 +3999,7 @@
 			)
 		)
 		(property "Footprint" "SON127P800X600X80-9N-D"
-			(at 227.33 155.88 0)
+			(at 228.6 152.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4009,7 +4009,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.winbond.com/hq/search-resource-file.jsp?partNo=W25Q128JVEIM&type=datasheet"
-			(at 227.33 255.88 0)
+			(at 228.6 252.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4019,7 +4019,7 @@
 			)
 		)
 		(property "Description" "128M-bit Serial Flash Memory with uniform 4KB sectors and Dual/Quad SPI"
-			(at 175.26 60.96 0)
+			(at 176.53 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4028,7 +4028,7 @@
 			)
 		)
 		(property "Height" "0.8"
-			(at 227.33 455.88 0)
+			(at 228.6 452.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4038,7 +4038,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Winbond"
-			(at 227.33 555.88 0)
+			(at 228.6 552.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4048,7 +4048,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "W25Q128JVEIM"
-			(at 227.33 655.88 0)
+			(at 228.6 652.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4058,7 +4058,7 @@
 			)
 		)
 		(property "Mouser Part Number" "454-W25Q128JVEIM"
-			(at 227.33 755.88 0)
+			(at 228.6 752.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4068,7 +4068,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Winbond/W25Q128JVEIM?qs=qSfuJ%252Bfl%2Fd6hdnQ7I94fFQ%3D%3D"
-			(at 227.33 855.88 0)
+			(at 228.6 852.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4078,7 +4078,7 @@
 			)
 		)
 		(property "Arrow Part Number" "W25Q128JVEIM"
-			(at 227.33 955.88 0)
+			(at 228.6 952.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4088,7 +4088,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/w25q128jveim/winbond-electronics.html?utm_currency=USD&region=asia"
-			(at 227.33 1055.88 0)
+			(at 228.6 1052.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
