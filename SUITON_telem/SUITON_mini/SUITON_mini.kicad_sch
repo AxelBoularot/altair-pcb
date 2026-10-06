@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "10.0")
 	(uuid "651dea4f-1e55-4052-accd-e9842c395f76")
 	(paper "A4")
 	(title_block
@@ -15,17 +15,23 @@
 	(sheet
 		(at 205.74 29.21)
 		(size 71.12 36.83)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "57dbdffc-67a8-4719-b089-3a9a4f0f209c")
 		(property "Sheetname" "MCU"
 			(at 205.74 28.4984 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35,6 +41,8 @@
 		)
 		(property "Sheetfile" "mcu.kicad_sch"
 			(at 205.74 66.6246 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -53,17 +61,23 @@
 	(sheet
 		(at 111.76 81.28)
 		(size 72.39 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "873eb0e4-6ac7-40ec-9166-17753800617b")
 		(property "Sheetname" "IHM & Pyro"
 			(at 111.76 80.5684 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -73,6 +87,8 @@
 		)
 		(property "Sheetfile" "ihm_pyro.kicad_sch"
 			(at 111.76 114.8846 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -91,17 +107,23 @@
 	(sheet
 		(at 205.74 127)
 		(size 71.12 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "c553f086-374f-4580-b66d-5120bafbb2ca")
 		(property "Sheetname" "Sensor"
 			(at 205.74 126.2884 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -111,6 +133,8 @@
 		)
 		(property "Sheetfile" "sensor.kicad_sch"
 			(at 205.74 158.0646 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -129,17 +153,23 @@
 	(sheet
 		(at 111.76 29.21)
 		(size 73.66 36.83)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "cbc1e4b3-87c3-4a09-a481-980e2b628052")
 		(property "Sheetname" "Memory"
 			(at 111.76 28.4984 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -149,6 +179,8 @@
 		)
 		(property "Sheetfile" "memory.kicad_sch"
 			(at 111.76 66.6246 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -167,17 +199,23 @@
 	(sheet
 		(at 111.76 128.27)
 		(size 74.93 27.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "d39f43fa-015a-494c-b832-3dadfd105702")
 		(property "Sheetname" "PYRO"
 			(at 111.76 127.5584 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -187,6 +225,8 @@
 		)
 		(property "Sheetfile" "pyro.kicad_sch"
 			(at 111.76 156.7946 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -205,17 +245,23 @@
 	(sheet
 		(at 205.74 81.28)
 		(size 72.39 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "fa32c007-86ee-4863-8d57-e197c5fc4cbe")
 		(property "Sheetname" "POWER"
 			(at 205.74 80.5684 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -225,6 +271,8 @@
 		)
 		(property "Sheetfile" "power.kicad_sch"
 			(at 205.74 114.8846 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -245,4 +293,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )
