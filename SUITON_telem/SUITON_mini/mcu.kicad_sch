@@ -1995,196 +1995,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:LED"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LED"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Light emitting diode"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "LED diode"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "LED_0_1"
-				(polyline
-					(pts
-						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "LED_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -4892,6 +4702,10 @@
 		(uuid "c2bc6476-7194-4354-aece-41eb9b011580")
 	)
 	(no_connect
+		(at 45.72 69.85)
+		(uuid "cc164349-3a2d-4e3c-8795-2fa29c3c2ed0")
+	)
+	(no_connect
 		(at 45.72 74.93)
 		(uuid "d3421088-0538-4645-b3a4-ddf5100293a8")
 	)
@@ -4942,16 +4756,6 @@
 			(type default)
 		)
 		(uuid "1938a4f8-692f-4779-b424-6fb9b7315ca2")
-	)
-	(wire
-		(pts
-			(xy 262.89 45.72) (xy 257.81 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f3d43de-1236-4a03-a5ed-4a1ae02655cd")
 	)
 	(wire
 		(pts
@@ -5255,16 +5059,6 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 45.72) (xy 238.76 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "999b58f3-71a4-43f4-ab04-996db00ee529")
-	)
-	(wire
-		(pts
 			(xy 187.96 62.23) (xy 207.01 62.23)
 		)
 		(stroke
@@ -5282,16 +5076,6 @@
 			(type default)
 		)
 		(uuid "ab4616c4-073d-460a-83b3-35186675bb45")
-	)
-	(wire
-		(pts
-			(xy 250.19 45.72) (xy 246.38 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b1988574-03bf-4ece-b258-bdc48d5c113c")
 	)
 	(wire
 		(pts
@@ -5403,16 +5187,6 @@
 		)
 		(uuid "25b004ff-61cd-4a38-b8a9-93ebd374b658")
 	)
-	(label "PA1"
-		(at 262.89 45.72 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "38c35720-d284-411b-8f8a-c23b944bfab0")
-	)
 	(label "BOOT"
 		(at 45.72 59.69 180)
 		(effects
@@ -5482,16 +5256,6 @@
 			(justify right bottom)
 		)
 		(uuid "6a9b4058-abeb-4119-971a-61a7b5b70b0d")
-	)
-	(label "PA1"
-		(at 45.72 69.85 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "71fdda4c-bb38-4ea5-a365-b67c61e54dd9")
 	)
 	(label "SWCLK"
 		(at 242.57 76.2 0)
@@ -7114,7 +6878,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 221.9452 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -7157,85 +6921,6 @@
 			(project "SUITON_mini"
 				(path "/651dea4f-1e55-4052-accd-e9842c395f76/57dbdffc-67a8-4719-b089-3a9a4f0f209c"
 					(reference "C33")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 236.22 45.72 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "11a3784d-5541-4988-b3a2-582104812131")
-		(property "Reference" "#PWR087"
-			(at 240.03 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 232.41 45.7199 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 236.22 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 236.22 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 236.22 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9bb843f6-87d0-4fcd-b16c-937523559dc5")
-		)
-		(instances
-			(project "SUITON_mini"
-				(path "/651dea4f-1e55-4052-accd-e9842c395f76/57dbdffc-67a8-4719-b089-3a9a4f0f209c"
-					(reference "#PWR087")
 					(unit 1)
 				)
 			)
@@ -7983,7 +7668,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 247.3452 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -8122,85 +7807,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 254 45.72 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "39f5ebab-95b1-45c3-8186-bbfd9eece000")
-		(property "Reference" "R28"
-			(at 254 40.894 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "510Ω"
-			(at 254 43.434 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 254 47.498 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 254 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 254 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "6cb72247-4deb-40ab-9982-95eb4eeb8e73")
-		)
-		(pin "1"
-			(uuid "b4aa7f1f-36f8-4cd0-8ef9-3bc3e545df9d")
-		)
-		(instances
-			(project "SUITON_mini"
-				(path "/651dea4f-1e55-4052-accd-e9842c395f76/57dbdffc-67a8-4719-b089-3a9a4f0f209c"
-					(reference "R28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 106.68 156.21 0)
 		(unit 1)
@@ -8312,7 +7918,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 197.8152 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -8561,7 +8167,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 133.0452 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -8801,7 +8407,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 35.56 57.912 90)
 			(hide yes)
 			(show_name no)
@@ -9199,7 +8805,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 209.2452 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -9832,7 +9438,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 185.1152 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -9995,7 +9601,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 234.6452 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -10193,86 +9799,6 @@
 			(project "SUITON_mini"
 				(path "/651dea4f-1e55-4052-accd-e9842c395f76/57dbdffc-67a8-4719-b089-3a9a4f0f209c"
 					(reference "#PWR094")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 242.57 45.72 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f2ac111c-27b9-46fa-9b76-95a332373e85")
-		(property "Reference" "D8"
-			(at 244.1575 38.1 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED"
-			(at 244.1575 40.64 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 242.57 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 242.57 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 242.57 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "0047fc95-68ac-4628-a403-ee6920a886e9")
-		)
-		(pin "1"
-			(uuid "bb77b44a-51f8-4661-b92d-79d0eed4db36")
-		)
-		(instances
-			(project "SUITON_mini"
-				(path "/651dea4f-1e55-4052-accd-e9842c395f76/57dbdffc-67a8-4719-b089-3a9a4f0f209c"
-					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -10636,7 +10162,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 144.4752 54.61 0)
 			(hide yes)
 			(show_name no)

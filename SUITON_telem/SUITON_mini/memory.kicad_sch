@@ -1681,48 +1681,39 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "W25Q128JVEIM:W25Q128JVEIM"
+		(symbol "W25Q128JVPIQ:W25Q128JVPIQ"
+			(pin_names
+				(offset 1.016)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "IC"
-				(at 52.07 7.62 0)
+			(property "Reference" "U"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
+					(justify bottom)
 				)
 			)
-			(property "Value" "W25Q128JVEIM"
-				(at 52.07 5.08 0)
+			(property "Value" "W25Q128JVPIQ"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
+					(justify bottom)
 				)
 			)
-			(property "Footprint" "SON127P800X600X80-9N-D"
-				(at 52.07 -94.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Datasheet" "https://www.winbond.com/hq/search-resource-file.jsp?partNo=W25Q128JVEIM&type=datasheet"
-				(at 52.07 -194.92 0)
+			(property "Footprint" "W25Q128JVPIQ:W25Q128JVPIQ"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1730,10 +1721,10 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
+					(justify bottom)
 				)
 			)
-			(property "Description" "128M-bit Serial Flash Memory with uniform 4KB sectors and Dual/Quad SPI"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1744,8 +1735,8 @@
 					)
 				)
 			)
-			(property "Height" "0.8"
-				(at 52.07 -394.92 0)
+			(property "Description" "FLASH - NOR Memory IC 128Mb (16M x 8) SPI - Quad I/O, QPI, DTR 133 MHz 8-WSON (6x5)"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1753,11 +1744,11 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
+					(justify bottom)
 				)
 			)
-			(property "Manufacturer_Name" "Winbond"
-				(at 52.07 -494.92 0)
+			(property "MF" "Winbond"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1765,11 +1756,11 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
+					(justify bottom)
 				)
 			)
-			(property "Manufacturer_Part_Number" "W25Q128JVEIM"
-				(at 52.07 -594.92 0)
+			(property "Package" "WDFN-8 Winbond Electronics"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1777,11 +1768,11 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
+					(justify bottom)
 				)
 			)
-			(property "Mouser Part Number" "454-W25Q128JVEIM"
-				(at 52.07 -694.92 0)
+			(property "Price" "None"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1789,11 +1780,11 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
+					(justify bottom)
 				)
 			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Winbond/W25Q128JVEIM?qs=qSfuJ%252Bfl%2Fd6hdnQ7I94fFQ%3D%3D"
-				(at 52.07 -794.92 0)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/W25Q128JVPIQ/Winbond/view-part/?ref=snap"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1801,11 +1792,11 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
+					(justify bottom)
 				)
 			)
-			(property "Arrow Part Number" "W25Q128JVEIM"
-				(at 52.07 -894.92 0)
+			(property "MP" "W25Q128JVPIQ"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1813,11 +1804,11 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
+					(justify bottom)
 				)
 			)
-			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/w25q128jveim/winbond-electronics.html?utm_currency=USD&region=asia"
-				(at 52.07 -994.92 0)
+			(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=779172&manufacturer=Winbond&part_name=W25Q128JVPIQ&search_term=winbond w25q128jvpiq"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1825,179 +1816,212 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
+					(justify bottom)
 				)
 			)
-			(symbol "W25Q128JVEIM_1_1"
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/W25Q128JVPIQ/Winbond/view-part/?ref=eda"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(symbol "W25Q128JVPIQ_0_0"
 				(rectangle
-					(start 5.08 2.54)
-					(end 50.8 -15.24)
+					(start -25.4 -10.16)
+					(end 25.4 10.16)
 					(stroke
-						(width 0.254)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
 						(type background)
 					)
 				)
-				(pin passive line
-					(at 0 0 0)
+				(text "W25Q128JVPIQ"
+					(at 0 7.62 0)
+					(effects
+						(font
+							(size 2.54 2.54)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -30.48 7.62 0)
 					(length 5.08)
-					(name "~{CS}"
+					(name "CS"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin passive line
-					(at 0 -2.54 0)
+				(pin bidirectional line
+					(at -30.48 2.54 0)
 					(length 5.08)
-					(name "DO_(IO1)"
+					(name "DO(IO1)"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "2"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin passive line
-					(at 0 -5.08 0)
+				(pin bidirectional line
+					(at -30.48 -2.54 0)
 					(length 5.08)
-					(name "~{WP_(IO2)}"
+					(name "/WP(IO2)"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "3"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin passive line
-					(at 0 -7.62 0)
+				(pin bidirectional line
+					(at -30.48 -7.62 0)
 					(length 5.08)
 					(name "GND"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "4"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin passive line
-					(at 55.88 -7.62 180)
+				(pin bidirectional line
+					(at 30.48 -7.62 180)
 					(length 5.08)
-					(name "DI_(IO0)"
+					(name "DI(IO0)"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "5"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin passive line
-					(at 55.88 -5.08 180)
+				(pin bidirectional line
+					(at 30.48 -2.54 180)
 					(length 5.08)
 					(name "CLK"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "6"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin passive line
-					(at 55.88 -2.54 180)
+				(pin bidirectional line
+					(at 30.48 2.54 180)
 					(length 5.08)
-					(name "~{HOLD_OR_}/RESET_(IO3)"
+					(name "HOLD/RESET(IO3)"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "7"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin passive line
-					(at 55.88 0 180)
+				(pin bidirectional line
+					(at 30.48 7.62 180)
 					(length 5.08)
 					(name "VCC"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "8"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin passive line
-					(at 27.94 -20.32 90)
+				(pin bidirectional line
+					(at -30.48 -7.62 0)
 					(length 5.08)
-					(name "EP"
+					(hide yes)
+					(name "GND"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "9"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -2519,10 +2543,6 @@
 		(at 115.57 67.31)
 		(uuid "66f68db8-276a-41ae-9300-0a40929f2149")
 	)
-	(no_connect
-		(at 220.98 86.36)
-		(uuid "ff430ee6-d6b3-4fc6-b1b6-8eb7db76997a")
-	)
 	(wire
 		(pts
 			(xy 147.32 68.58) (xy 147.32 69.85)
@@ -2542,6 +2562,16 @@
 			(type default)
 		)
 		(uuid "11968d90-7247-45b3-b5f1-98f9105a9048")
+	)
+	(wire
+		(pts
+			(xy 179.07 78.74) (xy 177.8 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "140df5f7-15d6-4478-93a8-b9904d6f937f")
 	)
 	(wire
 		(pts
@@ -2655,7 +2685,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 71.12) (xy 193.04 71.12)
+			(xy 186.69 78.74) (xy 187.96 78.74)
 		)
 		(stroke
 			(width 0)
@@ -2715,7 +2745,7 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 68.58) (xy 248.92 68.58)
+			(xy 252.73 73.66) (xy 248.92 73.66)
 		)
 		(stroke
 			(width 0)
@@ -2983,7 +3013,7 @@
 	)
 	(global_label "MISO_SPI2"
 		(shape input)
-		(at 193.04 68.58 180)
+		(at 187.96 73.66 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2993,7 +3023,7 @@
 		)
 		(uuid "2a92d6ea-077d-4aae-9e81-09df2ab2e90a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 180.1972 68.58 0)
+			(at 175.1172 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3031,7 +3061,7 @@
 	)
 	(global_label "CS_MEM"
 		(shape input)
-		(at 193.04 66.04 180)
+		(at 187.96 68.58 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3041,7 +3071,7 @@
 		)
 		(uuid "519f688d-1f3a-49d0-882d-8a3aebfe9401")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 182.5559 66.04 0)
+			(at 177.4759 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3055,7 +3085,7 @@
 	)
 	(global_label "MOSI_SPI2"
 		(shape input)
-		(at 248.92 73.66 0)
+		(at 248.92 83.82 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3065,7 +3095,7 @@
 		)
 		(uuid "5c0aff13-93fb-4f2e-9d42-577e8c36153b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 261.7628 73.66 0)
+			(at 261.7628 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3103,7 +3133,7 @@
 	)
 	(global_label "SCLK_SPI2"
 		(shape input)
-		(at 248.92 71.12 0)
+		(at 248.92 78.74 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3113,7 +3143,7 @@
 		)
 		(uuid "91fb13df-a821-4517-be4e-834c363cc9c6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 261.9442 71.12 0)
+			(at 261.9442 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3770,7 +3800,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 212.3948 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -3898,195 +3928,8 @@
 		)
 	)
 	(symbol
-		(lib_id "W25Q128JVEIM:W25Q128JVEIM")
-		(at 193.04 66.04 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "531edaea-7d5e-4b90-93c7-b0974e1b75b5")
-		(property "Reference" "IC1"
-			(at 220.98 58.42 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "W25Q128JVEIM"
-			(at 220.98 60.96 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SON127P800X600X80-9N-D"
-			(at 245.11 160.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://www.winbond.com/hq/search-resource-file.jsp?partNo=W25Q128JVEIM&type=datasheet"
-			(at 245.11 260.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "128M-bit Serial Flash Memory with uniform 4KB sectors and Dual/Quad SPI"
-			(at 193.04 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" "0.8"
-			(at 245.11 460.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "Winbond"
-			(at 245.11 560.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "W25Q128JVEIM"
-			(at 245.11 660.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Part Number" "454-W25Q128JVEIM"
-			(at 245.11 760.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Winbond/W25Q128JVEIM?qs=qSfuJ%252Bfl%2Fd6hdnQ7I94fFQ%3D%3D"
-			(at 245.11 860.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Arrow Part Number" "W25Q128JVEIM"
-			(at 245.11 960.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/w25q128jveim/winbond-electronics.html?utm_currency=USD&region=asia"
-			(at 245.11 1060.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "8"
-			(uuid "e03d3bc5-9924-4eb1-bc1e-232a5b3fad63")
-		)
-		(pin "1"
-			(uuid "868604d5-58f2-42d4-ae58-e2241463f2f1")
-		)
-		(pin "4"
-			(uuid "1da6dbba-cfa1-4868-9d9a-8c7c0102f913")
-		)
-		(pin "3"
-			(uuid "07b42ede-92c3-4a36-9428-a0d5aa508e98")
-		)
-		(pin "7"
-			(uuid "737aad26-2e46-455b-aaea-28ec6ef68636")
-		)
-		(pin "5"
-			(uuid "a584b988-3cc0-4c46-88f9-06023580c1a3")
-		)
-		(pin "2"
-			(uuid "302710e3-2222-4072-b438-98bdb449e553")
-		)
-		(pin "6"
-			(uuid "e6ee1460-d85d-4549-96c5-96c53829da27")
-		)
-		(pin "9"
-			(uuid "e1ccc4a0-4b47-4596-81a4-bc80385b3ce2")
-		)
-		(instances
-			(project "SUITON_mini"
-				(path "/651dea4f-1e55-4052-accd-e9842c395f76/cbc1e4b3-87c3-4a09-a481-980e2b628052"
-					(reference "IC1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
-		(at 248.92 66.04 0)
+		(at 248.92 68.58 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4097,7 +3940,7 @@
 		(fields_autoplaced yes)
 		(uuid "6d48bb5b-a818-4c80-81b6-4ac6c546f7a8")
 		(property "Reference" "#PWR060"
-			(at 248.92 69.85 0)
+			(at 248.92 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4108,7 +3951,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 248.92 60.96 0)
+			(at 248.92 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4118,7 +3961,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 248.92 66.04 0)
+			(at 248.92 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4129,7 +3972,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 248.92 66.04 0)
+			(at 248.92 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4140,7 +3983,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 248.92 66.04 0)
+			(at 248.92 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4258,7 +4101,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 181.61 71.12 90)
+		(at 177.8 78.74 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4269,7 +4112,7 @@
 		(fields_autoplaced yes)
 		(uuid "85122dfd-2162-4f93-83a7-5ad8e62c9098")
 		(property "Reference" "#PWR0100"
-			(at 185.42 71.12 0)
+			(at 181.61 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4280,7 +4123,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 177.8 71.1199 90)
+			(at 173.99 78.7399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4291,7 +4134,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 181.61 71.12 0)
+			(at 177.8 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4302,7 +4145,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 181.61 71.12 0)
+			(at 177.8 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4313,7 +4156,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 181.61 71.12 0)
+			(at 177.8 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4494,7 +4337,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 256.54 68.58 270)
+		(at 256.54 73.66 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4504,7 +4347,7 @@
 		(dnp no)
 		(uuid "90b1ebda-697a-47a6-b923-8004403bfc09")
 		(property "Reference" "R31"
-			(at 256.286 65.786 90)
+			(at 256.286 70.866 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4514,7 +4357,7 @@
 			)
 		)
 		(property "Value" "10kΩ"
-			(at 256.286 63.246 90)
+			(at 256.286 68.326 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4523,8 +4366,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 256.54 66.802 90)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 256.54 71.882 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4535,7 +4378,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 256.54 68.58 0)
+			(at 256.54 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4546,7 +4389,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 256.54 68.58 0)
+			(at 256.54 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4744,7 +4587,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 193.04 73.66 0)
+		(at 187.96 83.82 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4755,7 +4598,7 @@
 		(fields_autoplaced yes)
 		(uuid "a3a291aa-0b30-4966-b4a5-8c8748b48c33")
 		(property "Reference" "#PWR059"
-			(at 193.04 80.01 0)
+			(at 187.96 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4766,7 +4609,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 193.04 78.74 0)
+			(at 187.96 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4776,7 +4619,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 193.04 73.66 0)
+			(at 187.96 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4787,7 +4630,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 193.04 73.66 0)
+			(at 187.96 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4798,7 +4641,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 193.04 73.66 0)
+			(at 187.96 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4822,7 +4665,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 260.35 68.58 270)
+		(at 260.35 73.66 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4833,7 +4676,7 @@
 		(fields_autoplaced yes)
 		(uuid "a468b1f7-cd43-4355-805c-8e7829148563")
 		(property "Reference" "#PWR099"
-			(at 256.54 68.58 0)
+			(at 256.54 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4844,7 +4687,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 264.16 68.5799 90)
+			(at 264.16 73.6599 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4855,7 +4698,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 260.35 68.58 0)
+			(at 260.35 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4866,7 +4709,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 260.35 68.58 0)
+			(at 260.35 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4877,7 +4720,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 260.35 68.58 0)
+			(at 260.35 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4922,14 +4765,15 @@
 				)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 93.98 97.79 0)
+		(property "Value" "+3V3_radio"
+			(at 96.52 101.5999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -5237,7 +5081,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c6e50f33-e783-43fe-a680-5be9cca9c90b")
 		(property "Reference" "#PWR065"
 			(at 74.93 66.04 0)
@@ -5250,14 +5093,15 @@
 				)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 74.93 57.15 0)
+		(property "Value" "+3V3_radio"
+			(at 70.612 57.912 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -5619,6 +5463,205 @@
 		)
 	)
 	(symbol
+		(lib_id "W25Q128JVPIQ:W25Q128JVPIQ")
+		(at 218.44 76.2 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e08411bf-cec8-42b9-b9f4-9abe7e5294a3")
+		(property "Reference" "U1"
+			(at 218.44 60.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "W25Q128JVPIQ"
+			(at 218.44 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "W25Q128JVPIQ:W25Q128JVPIQ"
+			(at 218.44 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "FLASH - NOR Memory IC 128Mb (16M x 8) SPI - Quad I/O, QPI, DTR 133 MHz 8-WSON (6x5)"
+			(at 218.44 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "Winbond"
+			(at 218.44 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "WDFN-8 Winbond Electronics"
+			(at 218.44 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 218.44 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/W25Q128JVPIQ/Winbond/view-part/?ref=snap"
+			(at 218.44 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "W25Q128JVPIQ"
+			(at 218.44 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=779172&manufacturer=Winbond&part_name=W25Q128JVPIQ&search_term=winbond w25q128jvpiq"
+			(at 218.44 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 218.44 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/W25Q128JVPIQ/Winbond/view-part/?ref=eda"
+			(at 218.44 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "5"
+			(uuid "3d7847e1-750d-4779-947d-feb2fb800cb9")
+		)
+		(pin "1"
+			(uuid "7b40449c-deec-45a6-9e89-ba5ba353e4e4")
+		)
+		(pin "2"
+			(uuid "684b94f0-5776-4888-a445-cac4c1b8affe")
+		)
+		(pin "8"
+			(uuid "00e85c01-85f6-4f9c-a77e-10d7f5afd9f5")
+		)
+		(pin "3"
+			(uuid "1a08803a-4e2d-444c-8c2a-3f37a5aab189")
+		)
+		(pin "7"
+			(uuid "b0885566-5e3a-4131-86e0-9edd6bd2d8d6")
+		)
+		(pin "9"
+			(uuid "f4cfc1d7-8a5b-46bd-813f-878449828d52")
+		)
+		(pin "6"
+			(uuid "95a016fd-9958-4280-a148-e82443b3485f")
+		)
+		(pin "4"
+			(uuid "775ff779-3f18-4195-948c-986f1ea4d5da")
+		)
+		(instances
+			(project "SUITON_mini"
+				(path "/651dea4f-1e55-4052-accd-e9842c395f76/cbc1e4b3-87c3-4a09-a481-980e2b628052"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_FET:BSS138")
 		(at 144.78 77.47 0)
 		(unit 1)
@@ -5799,7 +5842,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 185.42 71.12 90)
+		(at 182.88 78.74 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5809,7 +5852,7 @@
 		(dnp no)
 		(uuid "efb8891a-a715-4514-84b7-d3d1e2b53ad1")
 		(property "Reference" "R30"
-			(at 185.674 73.914 90)
+			(at 183.134 81.534 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5819,7 +5862,7 @@
 			)
 		)
 		(property "Value" "10kΩ"
-			(at 185.674 76.454 90)
+			(at 183.134 84.074 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5828,8 +5871,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 185.42 72.898 90)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 182.88 80.518 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5840,7 +5883,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 185.42 71.12 0)
+			(at 182.88 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5851,7 +5894,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 185.42 71.12 0)
+			(at 182.88 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

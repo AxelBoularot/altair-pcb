@@ -495,146 +495,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:R"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R"
-				(at 0 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Resistor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "R_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "ISM330DHCXTR:ISM330DHCXTR"
 			(pin_names
 				(offset 1.016)
@@ -2659,6 +2519,14 @@
 		(uuid "149836c6-c36a-4163-96e1-651ad016b0cc")
 	)
 	(no_connect
+		(at 95.25 116.84)
+		(uuid "293ef416-b407-455b-8507-699d872a22b6")
+	)
+	(no_connect
+		(at 95.25 114.3)
+		(uuid "345e39b1-eb3a-499f-9394-43610a016a29")
+	)
+	(no_connect
 		(at 217.17 55.88)
 		(uuid "42d772cb-7e66-4a24-b353-0622ff991ce4")
 	)
@@ -2722,16 +2590,6 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 113.03) (xy 186.69 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "31cbef76-6078-4812-9139-2610affcef58")
-	)
-	(wire
-		(pts
 			(xy 95.25 101.6) (xy 95.25 104.14)
 		)
 		(stroke
@@ -2779,6 +2637,16 @@
 			(type default)
 		)
 		(uuid "47e60f59-b629-484e-9e5f-b9fc567cfb67")
+	)
+	(wire
+		(pts
+			(xy 186.69 111.76) (xy 186.69 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b37bf57-2db9-491a-af84-46df804daaad")
 	)
 	(wire
 		(pts
@@ -2842,7 +2710,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 105.41) (xy 227.33 101.6)
+			(xy 227.33 113.03) (xy 227.33 115.57)
 		)
 		(stroke
 			(width 0)
@@ -2892,26 +2760,6 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 105.41) (xy 186.69 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a217738e-1e90-4135-807d-f62d732dbca5")
-	)
-	(wire
-		(pts
-			(xy 95.25 116.84) (xy 102.87 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a272d1e5-ce85-424c-9679-7d6827971f00")
-	)
-	(wire
-		(pts
 			(xy 241.3 118.11) (xy 227.33 118.11)
 		)
 		(stroke
@@ -2942,16 +2790,6 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 113.03) (xy 227.33 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c57736c8-f044-4404-8027-b8dfbd08eb2d")
-	)
-	(wire
-		(pts
 			(xy 233.68 59.69) (xy 240.03 59.69)
 		)
 		(stroke
@@ -2969,16 +2807,6 @@
 			(type default)
 		)
 		(uuid "f6a86cfb-ecfa-4ee6-815b-4ba583fe4aff")
-	)
-	(wire
-		(pts
-			(xy 110.49 114.3) (xy 102.87 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "faf70098-2493-44a6-8f50-ca0e0f9e4901")
 	)
 	(wire
 		(pts
@@ -3059,30 +2887,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-	)
-	(global_label "SDA_I2C1"
-		(shape input)
-		(at 110.49 114.3 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "34b8b050-9cfb-4384-91dc-120f55b53ead")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 122.3047 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 	)
@@ -3470,30 +3274,6 @@
 			)
 		)
 	)
-	(global_label "SCL_I2C1"
-		(shape input)
-		(at 110.49 116.84 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d553dd03-ee65-496d-9996-8a28f709be6e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 122.2442 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "SCLK_SPI1"
 		(shape input)
 		(at 186.69 118.11 180)
@@ -3567,85 +3347,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 106.68 116.84 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "0540d761-fce4-4d8f-b292-c2b0632cc830")
-		(property "Reference" "R15"
-			(at 106.68 112.014 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0Ω"
-			(at 106.68 114.554 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 106.68 118.618 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 106.68 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 106.68 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "000d6c73-fdf4-4faa-ae3d-a9c69224145d")
-		)
-		(pin "1"
-			(uuid "4c20d284-de2f-4e42-9936-7df3c7ff4dfa")
-		)
-		(instances
-			(project "SUITON_mini"
-				(path "/651dea4f-1e55-4052-accd-e9842c395f76/c553f086-374f-4580-b66d-5120bafbb2ca"
-					(reference "R15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 233.68 55.88 180)
 		(unit 1)
@@ -3679,7 +3380,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 232.7148 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -3836,7 +3537,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 236.5248 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -3918,7 +3619,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 119.6848 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -4224,85 +3925,6 @@
 			(project "SUITON_mini"
 				(path "/651dea4f-1e55-4052-accd-e9842c395f76/c553f086-374f-4580-b66d-5120bafbb2ca"
 					(reference "#PWR039")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 99.06 114.3 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2c157983-fb19-4af9-9db1-af15ffb92309")
-		(property "Reference" "R14"
-			(at 99.06 109.474 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0Ω"
-			(at 99.06 112.014 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 99.06 116.078 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 99.06 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 99.06 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "ed3b0cb5-4421-43f0-bb74-accfe926b223")
-		)
-		(pin "1"
-			(uuid "cb71d7eb-459a-433e-888c-af613a294634")
-		)
-		(instances
-			(project "SUITON_mini"
-				(path "/651dea4f-1e55-4052-accd-e9842c395f76/c553f086-374f-4580-b66d-5120bafbb2ca"
-					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -4733,7 +4355,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 245.4148 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -5334,7 +4956,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 178.7652 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -5384,7 +5006,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 227.33 101.6 0)
+		(at 227.33 113.03 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5395,7 +5017,7 @@
 		(fields_autoplaced yes)
 		(uuid "953fab72-8dab-4861-950b-c4ad0056871d")
 		(property "Reference" "#PWR043"
-			(at 227.33 105.41 0)
+			(at 227.33 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5406,7 +5028,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 227.33 96.52 0)
+			(at 227.33 107.95 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5416,7 +5038,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 227.33 101.6 0)
+			(at 227.33 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5427,7 +5049,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 227.33 101.6 0)
+			(at 227.33 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5438,7 +5060,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 227.33 101.6 0)
+			(at 227.33 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5734,85 +5356,6 @@
 			(project "SUITON_mini"
 				(path "/651dea4f-1e55-4052-accd-e9842c395f76/c553f086-374f-4580-b66d-5120bafbb2ca"
 					(reference "U8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 227.33 109.22 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "9d406e93-068b-4d8c-8bbf-be24775a1839")
-		(property "Reference" "R17"
-			(at 232.156 109.22 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10Ω"
-			(at 229.616 109.22 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 225.552 109.22 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 227.33 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 227.33 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "3eab1ac3-2b03-46b4-bbe2-6e8cb238e528")
-		)
-		(pin "1"
-			(uuid "8dc0bce0-4a14-4192-ad87-97c3b08502f6")
-		)
-		(instances
-			(project "SUITON_mini"
-				(path "/651dea4f-1e55-4052-accd-e9842c395f76/c553f086-374f-4580-b66d-5120bafbb2ca"
-					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -6393,7 +5936,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 186.69 101.6 0)
+		(at 186.69 111.76 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6404,7 +5947,7 @@
 		(fields_autoplaced yes)
 		(uuid "dbf5fae1-01bb-442f-bf13-dfed566581e4")
 		(property "Reference" "#PWR040"
-			(at 186.69 105.41 0)
+			(at 186.69 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6415,7 +5958,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 186.69 96.52 0)
+			(at 186.69 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6425,7 +5968,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 186.69 101.6 0)
+			(at 186.69 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6436,7 +5979,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 186.69 101.6 0)
+			(at 186.69 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6447,7 +5990,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 186.69 101.6 0)
+			(at 186.69 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6548,85 +6091,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 186.69 109.22 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f4fe6666-a15b-4086-bb88-5a0622e2e2fd")
-		(property "Reference" "R16"
-			(at 191.516 109.22 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10Ω"
-			(at 188.976 109.22 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 184.912 109.22 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 186.69 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 186.69 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "2dfa8c99-2c42-4470-846c-02cd3c7164a7")
-		)
-		(pin "1"
-			(uuid "081bedc8-cc22-4095-8cfe-065a7768addf")
-		)
-		(instances
-			(project "SUITON_mini"
-				(path "/651dea4f-1e55-4052-accd-e9842c395f76/c553f086-374f-4580-b66d-5120bafbb2ca"
-					(reference "R16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 107.95 55.88 180)
 		(unit 1)
@@ -6660,7 +6124,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 106.9848 52.07 0)
 			(hide yes)
 			(show_name no)

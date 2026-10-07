@@ -1861,7 +1861,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 92.71) (xy 190.5 92.71)
+			(xy 190.5 92.71) (xy 203.2 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1888,16 +1888,6 @@
 			(type default)
 		)
 		(uuid "13175686-c7d3-4999-b43a-d7f58ed2cca3")
-	)
-	(wire
-		(pts
-			(xy 200.66 92.71) (xy 203.2 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "278bbc39-9a9a-4009-9fa5-c9fafd7f8688")
 	)
 	(wire
 		(pts
@@ -2146,7 +2136,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 204.978 96.52 90)
 			(hide yes)
 			(show_name no)
@@ -2189,85 +2179,6 @@
 			(project "SUITON_mini"
 				(path "/651dea4f-1e55-4052-accd-e9842c395f76/873eb0e4-6ac7-40ec-9166-17753800617b"
 					(reference "R19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 196.85 92.71 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "21ba8985-f7f4-41cf-9af1-b630de2fae21")
-		(property "Reference" "R18"
-			(at 197.104 88.392 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1kΩ"
-			(at 196.85 90.424 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 196.85 94.488 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 196.85 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 196.85 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "746b7388-8ca8-4187-a01e-0825ccaf5ef3")
-		)
-		(pin "1"
-			(uuid "4d603b6f-a5a5-46e0-842f-71caad273894")
-		)
-		(instances
-			(project "SUITON_mini"
-				(path "/651dea4f-1e55-4052-accd-e9842c395f76/873eb0e4-6ac7-40ec-9166-17753800617b"
-					(reference "R18")
 					(unit 1)
 				)
 			)
