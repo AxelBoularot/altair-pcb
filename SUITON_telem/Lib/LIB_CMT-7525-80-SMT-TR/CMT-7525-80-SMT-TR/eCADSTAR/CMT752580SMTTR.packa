@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "CMT-7525-80-SMT-TR"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2021-03-18-10:03:29)
+    (mountForm default
+        (footprintRef "CMT752580SMTTR")
+        (spec "System")
+    )
+)

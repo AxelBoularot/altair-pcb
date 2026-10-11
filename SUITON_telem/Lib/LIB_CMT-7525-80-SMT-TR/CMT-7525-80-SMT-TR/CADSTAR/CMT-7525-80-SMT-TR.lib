@@ -1,0 +1,18 @@
+.CMT-7525-80-SMT-TR :1 ;7.5 mm, 3.6 Vo-p, 80 dB, Surface Mount (SMT), Magnetic Audio Transducer Buzzer
+CMT752580SMTTR
+*STM LS
+*NGS
+*PLB 1="+" 2="-" 3="DUMMY_1" 4="DUMMY_2"
+*MXP 4
+*DFN CMT-7525-80-SMT-TR
+~!Manufacturer_Name (Same Sky)
+~!Manufacturer_Part_Number (CMT-7525-80-SMT-TR)
+~!Mouser Part Number (490-CMT-7525-80SMTTR)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Same-Sky/CMT-7525-80-SMT-TR?qs=P1JMDcb91o5izP7Xira9ww%3D%3D)
+~!Arrow Part Number (CMT-7525-80-SMT-TR)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/cmt-7525-80-smt-tr/cui-devices?region=nac)
+~!Link Datasheet (https://www.sameskydevices.com/product/resource/cmt-7525-80-smt-tr.pdf)
+~!Height (2.7mm)
+~!3D_Model (CMT-7525-80-SMT-TR)
+CMT-7525-80-SMT-TR
+1.1!U 2.1!U 3.1!U 4.1!U 

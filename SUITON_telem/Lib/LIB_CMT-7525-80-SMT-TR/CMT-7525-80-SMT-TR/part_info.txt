@@ -1,0 +1,9 @@
+Manufacturer=Same Sky
+PartNumber=CMT-7525-80-SMT-TR
+PartCategory=Loudspeaker or Buzzer
+PackageCategory=Other
+PinCount=4
+Version=9.9
+Released=2021-03-18 10:03:29
+Downloaded=2026-10-11 09:06:07
+3D=Y
