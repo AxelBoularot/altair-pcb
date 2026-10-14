@@ -1,0 +1,104 @@
+(footprint "SolderWirePad_1x01_SMD_1x2mm"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Wire Pad, Square, SMD Pad,  1mm x 2mm")
+	(tags "MeasurementPoint Square SMDPad 1mmx2mm ")
+	(property "Reference" "REF**"
+		(at 0.000001 -1.999999 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "dad8dfa8-b135-447c-aae6-e8c806647b3e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Conn_01x01_Pin"
+		(at 0 2.540001 0)
+		(layer "F.Fab")
+		(uuid "3c74e384-4083-4ab6-8a89-7d940bac469c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a958b483-61c3-4c53-997d-4ab6c3504ab4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Generic connector, single row, 01x01, script generated"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c5bb63cb-dc2e-4924-b5df-6c2f3a5db7a1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property ki_fp_filters "Connector*:*_1x??_*")
+	(sheetname "/MCU/")
+	(sheetfile "mcu.kicad_sch")
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_poly
+		(pts
+			(xy -0.75 -1.249999) (xy 0.750001 -1.250001) (xy 0.75 1.249999) (xy -0.750001 1.250001)
+		)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "8559b5af-8e04-4585-b003-16f16ca163c5")
+	)
+	(fp_poly
+		(pts
+			(xy -0.650002 -1.150002) (xy 0.649998 -1.149999) (xy 0.650002 1.150002) (xy -0.649998 1.149999)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "39b45f3b-30a7-43a5-b9d1-8e12c1b526f9")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "1614fc3a-e321-4c74-8f88-af4e56699ae0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 0 0)
+		(size 1 2)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "19b5e0b2-7d19-4e1a-9997-737327ced61e")
+	)
+	(embedded_fonts no)
+)

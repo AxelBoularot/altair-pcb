@@ -1,0 +1,347 @@
+(footprint "W25Q128JVPIQ"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "8-SON (DFN), 1.27 mm pitch, 5.00 X 6.00 X 0.75  mm body, 4.30 X 3.40 mm thermal pad <p>8-pin SON (DFN) package with 1.27mm pitch,  with body size 5.00 X 6.00 X 0.75 mm and thermal pad size 4.30 X 3.40 mm</p>")
+	(property "Reference" "REF**"
+		(at -0.000002 -4.151297 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "0679d44b-9d36-43f8-b6af-97bbf4438eb0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "W25Q128JVPIQ"
+		(at 0 3.82 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0cc652ce-6c5b-4c11-a1fa-3848c37d2343")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d1c2ab01-eeab-4be1-8791-1e2b8c610f5e")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "FLASH - NOR Memory IC 128Mb (16M x 8) SPI - Quad I/O, QPI, DTR 133 MHz 8-WSON (6x5)"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5072372d-771f-4a9b-8d0b-ad08d1cb964b")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "MF" "Winbond"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "31fc8736-9ef9-44a6-8713-2b3709e44fd9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Package" "WDFN-8 Winbond Electronics"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c0a8876b-f763-4076-ae80-5b6e330d4143")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Price" "None"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "029d9ebf-b22c-43d4-89f7-6de39dc49216")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "SnapEDA_Link" "https://www.snapeda.com/parts/W25Q128JVPIQ/Winbond/view-part/?ref=snap"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bccf273b-d3da-4c87-8428-13fc5d7b4744")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MP" "W25Q128JVPIQ"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8b14eafe-a656-434d-8319-012bebdb2075")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=779172&manufacturer=Winbond&part_name=W25Q128JVPIQ&search_term=winbond w25q128jvpiq"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "282c1461-f55d-4aa4-8fb7-b19538b554c1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Availability" "In Stock"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d4ba6c59-9597-4fa5-a4f4-fa5e02024946")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Check_prices" "https://www.snapeda.com/parts/W25Q128JVPIQ/Winbond/view-part/?ref=eda"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9f513913-a305-4150-a215-e9bc7b4c57f5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetname "/Memory/")
+	(sheetfile "memory.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -3.050001 -2.55)
+		(end 3.049996 -2.55)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "caeef34e-1631-452a-89db-13daee38c9cb")
+	)
+	(fp_line
+		(start -3.049998 -2.3813)
+		(end -3.050001 -2.55)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "96ba1179-60a1-4043-9fd9-f7b1ecb8c683")
+	)
+	(fp_line
+		(start -3.049998 2.381309)
+		(end -3.049996 2.55)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ec54df7c-9ee0-4606-bb46-3d806ab45223")
+	)
+	(fp_line
+		(start -3.049996 2.55)
+		(end 3.050001 2.55)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "454d9400-03b7-4f2b-8255-85d6457f3adf")
+	)
+	(fp_line
+		(start 3.049996 -2.55)
+		(end 3.049998 -2.381309)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ac4879ca-b575-4d91-b581-f3a1ad329a59")
+	)
+	(fp_line
+		(start 3.050001 2.55)
+		(end 3.049998 2.3813)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6bfc6f96-b44b-45fd-a4d7-adb45ff27e12")
+	)
+	(fp_circle
+		(center -3.554005 -2.631296)
+		(end -3.304001 -2.631302)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "3ed03919-9a75-4eeb-bacb-e31caadc15fc")
+	)
+	(fp_line
+		(start -3.050001 -2.55)
+		(end 3.049996 -2.55)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "da78e906-bc21-4f00-a178-c261279efffa")
+	)
+	(fp_line
+		(start -3.049996 2.55)
+		(end -3.050001 -2.55)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "092c0f1d-58b1-4c8b-84bd-58b24095b79c")
+	)
+	(fp_line
+		(start 3.049996 -2.55)
+		(end 3.050001 2.55)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a3cdfdfb-2ebf-485c-8b3a-09e4afb342da")
+	)
+	(fp_line
+		(start 3.050001 2.55)
+		(end -3.049996 2.55)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7d54560d-eeac-4899-98f4-58107a4e12ae")
+	)
+	(pad "1" smd oval
+		(at -2.8457 -1.905)
+		(size 1.0402 0.4446)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "75934b9d-02b2-4a40-b282-45b3d5578764")
+	)
+	(pad "2" smd oval
+		(at -2.845706 -0.634996)
+		(size 1.0402 0.4446)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "e51bed88-b44d-4b84-b4a9-3c36cdb6ca0c")
+	)
+	(pad "3" smd oval
+		(at -2.845707 0.635)
+		(size 1.0402 0.4446)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "41604c03-7e37-4ae4-80f2-da94269399a5")
+	)
+	(pad "4" smd oval
+		(at -2.845701 1.905002)
+		(size 1.0402 0.4446)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "3105e63c-f64c-4d7a-84b2-ced047c8296e")
+	)
+	(pad "5" smd oval
+		(at 2.8457 1.905)
+		(size 1.0402 0.4446)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "a65942ca-8e2b-40b6-a2ed-7045f7d972e0")
+	)
+	(pad "6" smd oval
+		(at 2.845706 0.634996)
+		(size 1.0402 0.4446)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "d83c867a-47e8-4871-8123-36c210053a76")
+	)
+	(pad "7" smd oval
+		(at 2.845707 -0.635)
+		(size 1.0402 0.4446)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "847773f8-ebbc-48ca-a2d8-582d5d7ff889")
+	)
+	(pad "8" smd oval
+		(at 2.845701 -1.905002)
+		(size 1.0402 0.4446)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "e1c1b8c8-22f9-4515-9a91-166a663025d0")
+	)
+	(pad "9" smd rect
+		(at 0 0)
+		(size 3.4 4.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "a4eb4295-3a9c-48c3-909c-5a489802b12c")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/boula/Desktop/Altair_pcb/SUITON_telem/Lib/W25Q128JVPIQ/W25Q128JVPIQ.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 -180 -180)
+		)
+	)
+)

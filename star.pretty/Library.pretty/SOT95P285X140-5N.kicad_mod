@@ -1,0 +1,492 @@
+(footprint "SOT95P285X140-5N"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.775 -0.100005 0)
+		(layer "F.SilkS")
+		(uuid "16fa0484-6252-4b57-b681-a357774ec9e6")
+		(effects
+			(font
+				(size 0.80263 0.80263)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "AP2112K-3.3TRG1"
+		(at 5.961761 2.453552 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0198be16-5d49-4d71-be0c-64623b3df650")
+		(effects
+			(font
+				(size 0.801496 0.801496)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "35272d3c-54db-42f7-a860-802fb23b26ef")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b6409990-758c-456b-a641-a2ad2e594879")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "MF" "Diodes Zetex"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "66413c38-f1f0-4bce-a517-c3def2d33d4a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description_1" "\n                        \n                            Linear Voltage Regulator IC Positive Fixed 1 Output 600mA SOT-25\n                        \n"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c7a42bda-4d05-4530-a961-e6ca3ce3fca6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Package" "None"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ed542019-7e6d-4830-87be-831450b87fce")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Price" "None"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7374edcf-973d-4c42-82a0-c4f3af3e0562")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Check_prices" "https://www.snapeda.com/parts/AP2112K-3.3TRG1/Diodes+Inc./view-part/?ref=eda"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f7b53ef4-e0fb-4624-976c-e6941ce3cc49")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "PARTREV" "2-2"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7316b3cf-b666-451e-a81f-cf48fd8cf19d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "SnapEDA_Link" "https://www.snapeda.com/parts/AP2112K-3.3TRG1/Diodes+Inc./view-part/?ref=snap"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3ad39161-898d-4bb9-888b-5ac875e2a36a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MP" "AP2112K-3.3TRG1"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2c20e2d8-a651-4db0-b5bb-12921a366a04")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=4816701&manufacturer=Diodes Zetex&part_name=AP2112K-3.3TRG1&search_term=ap2112k-3.3trg1"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "19395e2f-e4b5-48bf-88f7-80b7a146e448")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Availability" "In Stock"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "910998dc-6b35-40b6-814b-4b2d9689e129")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MANUFACTURER" "Diodes Inc."
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "073df642-b067-4ca9-9ed4-d7cdc18bff91")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetname "/POWER/")
+	(sheetfile "power.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -0.85 -1.550002)
+		(end -0.849991 -1.450005)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b6b0e35b-69fc-46e2-8010-314bfe93b446")
+	)
+	(fp_line
+		(start -0.85 1.549999)
+		(end -0.850001 1.450002)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4576696c-ccff-4f99-bfe6-6ff7f8525999")
+	)
+	(fp_line
+		(start 0.85 -1.549999)
+		(end -0.85 -1.550002)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f4132a47-fd34-4cfe-a086-7ce2e270b07c")
+	)
+	(fp_line
+		(start 0.85 -1.549999)
+		(end 0.850001 -1.450002)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fb8bbf6b-90f4-4eef-b029-f17d02ea78a8")
+	)
+	(fp_line
+		(start 0.85 1.550002)
+		(end -0.85 1.549999)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6463b109-e5db-41dc-b1ce-f6c42c675a70")
+	)
+	(fp_line
+		(start 0.85 1.550002)
+		(end 0.849991 1.450005)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "94062a70-09c0-435b-86ad-29797d1c51ea")
+	)
+	(fp_circle
+		(center -2.468996 -0.950001)
+		(end -2.369004 -0.95)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "6282dc8a-47f2-4996-bd64-957e0563c1ea")
+	)
+	(fp_line
+		(start -2.110001 1.500001)
+		(end -1.099997 1.499999)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f79e6e2e-f43f-45aa-ae3c-0d76aa25f967")
+	)
+	(fp_line
+		(start -2.109997 -1.500002)
+		(end -2.110001 1.500001)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "05ab3df3-1143-4884-9ad0-64a8b04a9b3d")
+	)
+	(fp_line
+		(start -1.100003 1.8)
+		(end 1.100002 1.799999)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "52bfcdca-628b-4815-bb5b-08011f841e80")
+	)
+	(fp_line
+		(start -1.100002 -1.799999)
+		(end -1.099994 -1.499999)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b1050d31-9870-48dd-8f6c-7c6c21cd5b49")
+	)
+	(fp_line
+		(start -1.099997 1.499999)
+		(end -1.100003 1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "14a71eaa-d71d-4144-b800-8a3404641e8e")
+	)
+	(fp_line
+		(start -1.099994 -1.499999)
+		(end -2.109997 -1.500002)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ed09330a-17af-4016-a51a-6e5436701a5b")
+	)
+	(fp_line
+		(start 1.099994 1.499999)
+		(end 2.109997 1.500002)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c373b16a-433a-4978-bf96-15459aefd569")
+	)
+	(fp_line
+		(start 1.099997 -1.499999)
+		(end 1.100003 -1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "75e4495e-169a-4316-aa7f-e19d9fa500f5")
+	)
+	(fp_line
+		(start 1.100002 1.799999)
+		(end 1.099994 1.499999)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "25fa19bd-dc00-453e-a2f2-59f0a9331aa9")
+	)
+	(fp_line
+		(start 1.100003 -1.8)
+		(end -1.100002 -1.799999)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "06d2b300-8748-4e72-9448-459b6f289801")
+	)
+	(fp_line
+		(start 2.109997 1.500002)
+		(end 2.110001 -1.500001)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c17b9974-ad61-4906-bd0d-86dab8092888")
+	)
+	(fp_line
+		(start 2.110001 -1.500001)
+		(end 1.099997 -1.499999)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "bfb9f632-6d4c-4811-80bd-caef47d8b3aa")
+	)
+	(fp_line
+		(start -0.85 -1.550002)
+		(end 0.85 -1.549999)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5a13da80-21b8-43ea-b5ce-c10d677e7823")
+	)
+	(fp_line
+		(start -0.85 1.549999)
+		(end -0.85 -1.550002)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c635ac8e-ae83-4f97-974d-b54669e590eb")
+	)
+	(fp_line
+		(start 0.85 -1.549999)
+		(end 0.85 1.550002)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6189102b-86a8-489c-aa9c-ae6dc663cf61")
+	)
+	(fp_line
+		(start 0.85 1.550002)
+		(end -0.85 1.549999)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "346a4417-2271-403e-94ee-ec5b15854c55")
+	)
+	(fp_circle
+		(center -0.469002 -0.949997)
+		(end -0.369001 -0.949998)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "7c961f14-e7a3-4879-b0d8-86c08fdc0721")
+	)
+	(pad "1" smd roundrect
+		(at -1.184992 -0.950004)
+		(size 1.35 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.075)
+		(solder_mask_margin 0.102)
+		(uuid "4149f5ca-841c-43d5-8630-02764b2f0038")
+	)
+	(pad "2" smd roundrect
+		(at -1.184994 -0.000006)
+		(size 1.35 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.075)
+		(solder_mask_margin 0.102)
+		(uuid "d26a9aad-86ff-4f0a-ab2e-a0d7c9d1c127")
+	)
+	(pad "3" smd roundrect
+		(at -1.185006 0.949994)
+		(size 1.35 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.075)
+		(solder_mask_margin 0.102)
+		(uuid "56c3ea23-c801-4b39-812e-89a7d0ef5a7a")
+	)
+	(pad "4" smd roundrect
+		(at 1.184992 0.950004)
+		(size 1.35 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.075)
+		(solder_mask_margin 0.102)
+		(uuid "1f0bc208-2016-4929-93d8-d00f2d013aea")
+	)
+	(pad "5" smd roundrect
+		(at 1.185006 -0.949994)
+		(size 1.35 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.075)
+		(solder_mask_margin 0.102)
+		(uuid "e10fae16-c72e-4874-bf3c-8f1975ef1749")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/boula/Desktop/Altair_pcb/SUITON_telem/Lib/AP2112K-3.3TRG1 (1)/AP2112K-3.3TRG1.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -90)
+		)
+	)
+)

@@ -1,0 +1,152 @@
+(footprint "L_0805_2012Metric"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Inductor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 80, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
+	(tags "inductor")
+	(property "Reference" "REF**"
+		(at 0 -1.55 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "83b976fa-493f-4d0f-be1a-b2800e2eedb4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "FerriteBead"
+		(at 0 1.55 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0d9f2963-6ca5-4d4c-9d07-a96a730d7555")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "91d9f4ac-b9f8-4f5a-8c79-34ef631c30ad")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "Ferrite bead, small symbol"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9de9af37-c5fb-423a-a0c7-1b3a92e61f38")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+		(at 0 0 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "5cc97055-ff98-4d64-8266-ee94ae3effcf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property ki_fp_filters "Inductor_* L_* *Ferrite*")
+	(sheetname "/POWER/")
+	(sheetfile "power.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -0.399621 -0.559998)
+		(end 0.399619 -0.56)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "107699d6-2a68-417d-b95b-65abc427805a")
+	)
+	(fp_line
+		(start -0.399619 0.56)
+		(end 0.399621 0.559998)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "309a5604-a42e-471c-9f9f-2dc5af7e68e1")
+	)
+	(fp_poly
+		(pts
+			(xy -1.75 -0.850005) (xy 1.750001 -0.850002) (xy 1.75 0.850005) (xy -1.750001 0.850002)
+		)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "6d5ff062-7b36-4878-8966-40fbba525231")
+	)
+	(fp_poly
+		(pts
+			(xy -0.999996 -0.450003) (xy 1.000001 -0.450001) (xy 0.999996 0.450003) (xy -1.000001 0.450001)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "071fabe9-05fc-471d-a9aa-bb3ed99f5ddc")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(uuid "50c46e83-ed54-4033-8056-50cabc3d28f5")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.08)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1.0625 0)
+		(size 0.875 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "cc123bed-0843-4314-893d-e25853874031")
+	)
+	(pad "2" smd roundrect
+		(at 1.0625 0)
+		(size 0.875 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "4b6c196c-0b94-4931-99c9-fd5106ed6cf0")
+	)
+	(embedded_fonts no)
+	(model "${KICAD10_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_0805_2012Metric.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

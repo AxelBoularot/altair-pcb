@@ -1,0 +1,260 @@
+(footprint "SOT-666"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "SOT666")
+	(tags "SOT-666")
+	(property "Reference" "REF**"
+		(at -0.000001 -1.999998 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "4caa981b-df0a-45e0-91ad-592781bbd08f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "USBLC6-2P6"
+		(at 0.000009 1.750005 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2c2f4570-0065-4b0d-b0a4-792140306241")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.st.com/resource/en/datasheet/usblc6-2.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2688d611-76eb-4470-af7d-0b4b9034329f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Very low capacitance ESD protection diode, 2 data-line, SOT-666"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8d7e5ba2-0f52-45c0-94f5-499babcd194a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property ki_fp_filters "SOT?666*")
+	(sheetname "/MCU/")
+	(sheetfile "mcu.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start 0.649994 0.989986)
+		(end -0.650005 0.990007)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a707c2de-7d22-4bea-b4dd-a9854e12c469")
+	)
+	(fp_line
+		(start 0.650005 -0.990007)
+		(end -0.399996 -0.990001)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6c3f3c96-0f5f-47fd-a547-66139e0dbda7")
+	)
+	(fp_poly
+		(pts
+			(xy -0.769994 -0.990001) (xy -1.049996 -0.989994) (xy -0.770004 -1.269994) (xy -0.769994 -0.990001)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "93c07c2f-a06f-434c-995b-6fbe285229de")
+	)
+	(fp_line
+		(start -1.499999 -1.099997)
+		(end -1.499999 1.099997)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3e406d04-c0d0-4b68-89cc-4f62006ac5d0")
+	)
+	(fp_line
+		(start -1.499999 -1.099997)
+		(end 1.499999 -1.099997)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ce492fca-25f0-4b13-8d64-60680b6202f5")
+	)
+	(fp_line
+		(start -1.499999 1.099997)
+		(end 1.499999 1.099997)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9c17667a-47e9-4289-adc7-86e113cde663")
+	)
+	(fp_line
+		(start 1.499999 1.099997)
+		(end 1.499999 -1.099997)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4eba6167-1b37-43d1-9ede-b844e3c78a97")
+	)
+	(fp_line
+		(start -0.649995 -0.530002)
+		(end -0.649992 0.850011)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "52d3274c-c171-432f-9cac-78b17ee38ca5")
+	)
+	(fp_line
+		(start -0.649995 -0.530002)
+		(end -0.33 -0.85)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "608f8f54-c1cf-4094-8a61-79365d152abb")
+	)
+	(fp_line
+		(start 0.649992 -0.850011)
+		(end -0.33 -0.85)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0704c074-05de-4e20-99ae-1892a9898c06")
+	)
+	(fp_line
+		(start 0.649992 -0.850011)
+		(end -0.33 -0.85)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "586ce167-17c4-48a8-8c57-d42f5eb734bf")
+	)
+	(fp_line
+		(start 0.649992 -0.850011)
+		(end 0.65 0.849993)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "aadcd38c-7c3a-46ab-92f2-2da3129562b8")
+	)
+	(fp_line
+		(start 0.65 0.849993)
+		(end -0.649992 0.850011)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "39d04d54-a9e0-4c34-ae81-d7f50571e9d9")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 90)
+		(layer "F.Fab")
+		(uuid "628e508e-92e5-439f-88a0-4186ede78967")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.850011 -0.537494)
+		(size 0.5 0.375)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "94d282bc-7338-4707-99d2-2098cb3e6b65")
+	)
+	(pad "2" smd roundrect
+		(at -0.924997 -0.000002)
+		(size 0.65 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "fda2ffe4-3dea-45e2-aad1-8ce491ac3814")
+	)
+	(pad "3" smd roundrect
+		(at -0.84999 0.537499)
+		(size 0.5 0.375)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "92bf3e6b-ed43-4953-80cd-99dc4f207140")
+	)
+	(pad "4" smd roundrect
+		(at 0.850011 0.537494)
+		(size 0.5 0.375)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "ba6a40ab-e3fd-4cf9-bc4a-1ef1104d50bf")
+	)
+	(pad "5" smd roundrect
+		(at 0.924997 0.000002)
+		(size 0.65 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "d0045795-6387-4913-959c-e15eec8df74c")
+	)
+	(pad "6" smd roundrect
+		(at 0.84999 -0.537499)
+		(size 0.5 0.375)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "fa664e8f-6a61-4c58-b5f3-3b63038ff185")
+	)
+	(embedded_fonts no)
+	(model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-666.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
